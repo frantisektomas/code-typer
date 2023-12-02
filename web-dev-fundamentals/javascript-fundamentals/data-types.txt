@@ -1,0 +1,87 @@
+simple js code for the start :
+
+console.log("Hello World!"); // print Hello World! to console
+
+NUMBERS
+
+number is a value
+example -2, 3.5, 45 ...
+
+basic arithmetic operators :
+    + addition
+    - subtraction
+    * multiplication
+    / devision
+    % modulo
+
+5 % 6 // => 1 gives the remainder that results from a division
+
+BOOLEANS
+
+booleans are 2 values TRUE or FALSE
+
+logical operators :
+    ! not
+    && add 
+    || or
+
+the not ! operator will reverse a boolean value :
+
+console.log(!true); // => false
+console.log(!!true); // => true flip the value twice times so its true
+
+the and && operator will take two boolean values and will only evaluate to 
+true when both input values are true. Otherwise, it will return false :
+
+console.log(false && false); // => false
+console.log(false && true); // => false
+console.log(true && false); // => false
+console.log(true && true); // => true
+
+the or || operator will take two boolean values and will only evaluate to 
+false when both input values are false. Otherwise, it will return true:
+
+console.log(false || false); // => false 
+console.log(false || true); // => true
+console.log(true || false); // => true
+console.log(true || true); // => true
+
+we can write boolean expressions that consist of multiple logical operations,
+but we should be aware of the order of operations. JavaScript will evaluate ! then && then ||.
+
+console.log(true || true && false); // => true
+
+VARIABLES
+
+to initialize a variable in JavaScript you need two new pieces of syntax: let and =.
+
+let bootcamp = "App Academy";
+console.log(bootcamp); // 'App Academy'
+
+declaring and assigning variable
+
+assignment shorthand :
+    x += 10; // x = x + 10
+    x -= 10; // x = x - 10
+    x /= 10; // x = x / 10
+    x *= 10; // x = x * 10
+
+    x++; // x = x + 1
+    x--; // x = x - 1
+
+NaN not a number
+undefined where is not exist
+
+STRING
+
+"string" 'string' it doesn't matter, both are good
+
+Calculating length use .length function give a number of length
+Using indexOf use .indexOf() string to index number
+
+indexing a string
+
+let x = "string"[2] // => r
+let x = "string".indexOf(r) // => 2
+
+console.log("Hello" + "World!"); // Hello World!
