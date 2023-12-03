@@ -25,4 +25,4 @@ Include specific notes about fundamentals of HTML, CSS, JavaScript.
 ...
 
 ## Author
-[frantisektomas]
+Frantisek Tomass
