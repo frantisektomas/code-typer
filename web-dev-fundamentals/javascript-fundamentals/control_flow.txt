@@ -1,0 +1,43 @@
+# CONTROL FLOW
+
+## CONDITIONALS
+
+in simple terms - control flow is the order in which instructions
+are executed within a program.
+
+### a quick word on syntax
+
+[] are square brackets
+{} are curly braces
+() are parentheses
+
+if
+else if
+if else
+
+if (condition) {
+    this code run if condition is true
+} else {
+    this code tun if condition is false
+}
+
+if (3 === 3) {
+    console.log("this is three!");
+} else {
+    console.log("nothing");
+}
+
+function isSubstring(searchString, subString) {
+  let search = searchString.toLowerCase();
+  let sub = subString.toLowerCase();
+  
+  if (search.indexOf(sub) !== -1 ) {
+      return true;
+  } else {
+      return false;
+  }
+}
+
+console.log(isSubstring("The cat went to the store", "he cat went")); // => true
+console.log(isSubstring("Time to program", "time")); // => true
+console.log(isSubstring("Jump for joy", "joys")); // => false
