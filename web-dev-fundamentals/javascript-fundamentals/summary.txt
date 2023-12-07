@@ -1,0 +1,66 @@
+SUMARY OF JAVASCRIPT-FUNDAMENTALS
+
+NUMBERS
+
+number is value
+
+basic arithmetic operators :
+    + addition
+    - subtraction
+    * multiplication
+    / devision
+    % modulo
+
+BOOLEANS
+
+booleans are 2 values TRUE or FALSE
+
+logical operators :
+    ! not
+    && add
+    || or
+
+
+VARIABLES
+
+to initialize a variable in JavaScript you need two new pieces of syntax: let and =.
+
+NaN not a number
+undefined where is not exist
+
+STRING
+
+"string" 'string' it doesn't matter, both are good
+let x = "string"[2] // => r
+
+FUNCTIONS
+
+a function is a set of code that will run when called.
+
+function average(number1, number2) { // declared
+    return (number1 + number2) / 2;
+}
+
+CONDITIONALS
+
+[] are square brackets
+{} are curly braces
+() are parentheses
+
+if
+else if
+if else
+
+if (condition) {
+    this code run if condition is true
+} else {
+    this code tun if condition is false
+}
+
+BASIC LOOPS
+
+while (condition) {
+    // code block to be executed if condition is true
+}
+
+for (<initial expressionl>;<condition>;<loopEnd expression)

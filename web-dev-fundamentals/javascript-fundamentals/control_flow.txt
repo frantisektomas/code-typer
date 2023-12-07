@@ -30,7 +30,7 @@ if (3 === 3) {
 function isSubstring(searchString, subString) {
   let search = searchString.toLowerCase();
   let sub = subString.toLowerCase();
-  
+
   if (search.indexOf(sub) !== -1 ) {
       return true;
   } else {
@@ -142,7 +142,7 @@ console.log(arr[2]) // 4
 
 ### Calculating the length of an array
 
-Since an array can contain any number of values you will find 
+Since an array can contain any number of values you will find
 it useful to count the number of values available to you
 using .length:
 
@@ -150,7 +150,7 @@ console.log([4, 7, 9].length); // => 3
 console.log([1, 2].length); // => 2
 console.log([].length); // => 0
 
-console.log([1, 2, 3] + [4, 5, 6]); // => 1,2,34,5,6 
+console.log([1, 2, 3] + [4, 5, 6]); // => 1,2,34,5,6
 console.log([1, 2, 3].concat([4, 5, 6])); // => [1, 2, 3, 4, 5, 6]
 
 ### Manipulating arrays
@@ -176,7 +176,7 @@ function combineArray(array1, array2) {
 console.log(combineArray([1, 2], [3, 4])); // => [1, 2, 3, 4]
 console.log(combineArray([17, 5], [6, 7]));  // => [17, 5, 6, 7]
 
-Doubler 
+Doubler
 
 function doubler(numbers) {
     let array = [];
@@ -193,7 +193,7 @@ function doubler(numbers) {
 console.log(doubler([1, 2, 3, 4])); // => [2, 4, 6, 8]
 console.log(doubler([7, 1, 8])); // => [14, 2, 16]
 
-VOWEL COUNTER 
+VOWEL COUNTER
 
 function countVowels(word) {
     let vowel = 0;
@@ -203,9 +203,9 @@ function countVowels(word) {
         if (letter === "a" ||
             letter === "e" ||
             letter === "i" ||
-            letter === "o" || 
+            letter === "o" ||
             letter === "u") {
-        vowel += 1; 
+        vowel += 1;
         }
         index++;
     }
