@@ -1,4 +1,4 @@
-Basic HTML Structure:
+Basic HTML :
 
 <!DOCTYPE html>: Specifies the HTML version.
 <html>: The root element of an HTML document.

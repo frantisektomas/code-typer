@@ -1,0 +1,28 @@
+CSS basics :
+
+Type selectors -- matches elements by node name (e.g. div, li, a, p)
+Class selectors -- matches elements by class name (e.g. <button class=“active”>)
+ID selectors -- matches elements by ID name (e.g. <div id=”list-1”>)
+Universal selectors -- matches elements of any type (e.g. *)
+
+Descendant selectors :
+
+The descendant selector is represented by two selectors with just white space in between them
+(syntax: A(spaces, tabs, line breaks)B). This will select any element (B) that is a descendant of the first element (A).
+
+
+Direct child selector :
+
+The > selector selects nodes that are direct children of the first element (syntax: A > B).
+It will match every element B that is immediately nested inside an element A. This is different
+than the descendant selector because it selects only the direct children of an element.
+
+Adjacent sibling selectors :
+
+The + selector selects adjacent siblings (syntax: A + B). This means that the second element (B) directly
+follows the first (A), and both share the same parent.
+
+Pseudo-classes :
+A pseudo-class specifies a special state of the selected element(s) and does not refer to any elements or
+attributes contained in the DOM (hence, pseudo). A pseudo-class is formed by a selector followed by a colon
+followed by the pseudo-class name (syntax: A:B).
