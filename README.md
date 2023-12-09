@@ -24,5 +24,6 @@ Include specific notes about fundamentals of HTML, CSS, JavaScript.
 
 ...
 
-## Author
-Frantisek Tomas
+## Rights
+
+source - https://www.appacademy.io/ writen by frantisek tomas.

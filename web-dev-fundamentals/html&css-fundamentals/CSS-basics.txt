@@ -10,7 +10,6 @@ Descendant selectors :
 The descendant selector is represented by two selectors with just white space in between them
 (syntax: A(spaces, tabs, line breaks)B). This will select any element (B) that is a descendant of the first element (A).
 
-
 Direct child selector :
 
 The > selector selects nodes that are direct children of the first element (syntax: A > B).
