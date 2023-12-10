@@ -1,0 +1,63 @@
+CSS basics :
+
+Type selectors -- matches elements by node name (e.g. div, li, a, p)
+Class selectors -- matches elements by class name (e.g. <button class=“active”>)
+ID selectors -- matches elements by ID name (e.g. <div id=”list-1”>)
+Universal selectors -- matches elements of any type (e.g. *)
+
+Selecting Elements :
+
+element {
+  property: value;
+}
+
+Adding Styles :
+
+font-size: 16px;
+color: #333;
+background-color: #fff;
+
+Box Model :
+
+margin: 10px;
+padding: 5px;
+border: 1px solid #ddd;
+
+Text Styling :
+
+font-family: 'Arial', sans-serif;
+font-weight: bold;
+text-align: center;
+text-decoration: underline;
+
+Flexbox Layout :
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+Positioning :
+
+position: relative;
+top: 20px;
+left: 30px;
+
+Media Queries :
+
+@media screen and (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600px */
+}
+
+Comments :
+
+/* This is a comment */
+
+Pseudo-classes :
+
+a:hover {
+  color: #ff0000; /* Change color on hover */
+}
+
+Transition :
+
+transition: all 0.3s ease-in-out;
