@@ -1,0 +1,36 @@
+Box Model:
+Every HTML element can be considered as a box.
+The box model consists of content, padding, border, and margin.
+
+Positioning:
+Use position property for element positioning.
+Values include static, relative, absolute, and fixed.
+
+Flexbox:
+A powerful layout model for designing complex layouts.
+Use display: flex on the container and adjust child items with flex properties.
+
+Grid:
+Allows for a two-dimensional layout system.
+Use display: grid on the container and define rows and columns.
+Responsive Design:
+
+Make your layouts responsive using media queries.
+Use percentages or relative units (em, rem) for flexible designs.
+
+Floats:
+Traditionally used for layout, but less common with the advent of Flexbox and Grid.
+Useful for wrapping text around images.
+
+Box Sizing:
+Use box-sizing: border-box to include padding and border in the element's total width and height.
+
+Overflow:
+Control what happens when content overflows its box using overflow property.
+
+Position: Sticky:
+An element is treated as relatively positioned until it crosses a specified point, then it is treated as fixed.
+
+CSS Grid Layout:
+Powerful for creating two-dimensional layouts.
+Define rows and columns, and place items in specific cells.
