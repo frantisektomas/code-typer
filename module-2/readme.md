@@ -1,7 +1,7 @@
 # JavaScript Fundamentals
 
 ## chapter-2-1
-is about introduction to javaScript notes are about basic javascript
+is about introduction to javaScript notes are about basic javascript hej
 
 ## chapter-2-2
 is about control flow
