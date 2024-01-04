@@ -44,6 +44,6 @@ These are my personal notes from App Academy, covering various topics related to
 ### module-13
 - is about Docker and Microservices
 
-## Rights
+## Rightss
 
 source - https://www.appacademy.io/  writen by frantisek tomas.
