@@ -1,1 +1,1 @@
-# courses-notes
+# code-typer

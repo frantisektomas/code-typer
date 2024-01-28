@@ -1,0 +1,31 @@
+:root {
+	--foreground-color: black;
+	--background-color: white;
+	--wrong-color: red;
+}
+  
+@media (prefers-color-scheme: dark) {
+	:root[data-theme='dark'] {
+	  --foreground-color: white;
+	  --background-color: black;
+	}
+}
+  
+body {
+	color: var(--foreground-color);
+	background-color: var(--background-color);
+}
+
+#theme-toggle{
+	font-family: monospace;
+	font-weight: bold;
+	width: 100px;
+	height: 30px;
+	border-radius: 8px;
+	border: none;
+}
+
+.button-container {
+	text-align: right;
+	margin: 15px;
+}
