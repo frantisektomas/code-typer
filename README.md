@@ -10,4 +10,4 @@ accuracy and speed: try to rewrite the code as accurately and quickly as possibl
 progression: as you continue playing, the difficulty level may increase with more complex code snippets.__
 challenge yourself: challenge yourself to improve your coding speed and accuracy with each attempt.
 
-live code typer : [](https://frantisektomas.github.io/code-typer/)
+live code typer : [click here !](https://frantisektomas.github.io/code-typer/)
